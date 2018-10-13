@@ -1,0 +1,233 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.bg-1 {background-image: url(../img/bg-1.jpg);}
+.bg-2 {background-image: url(../img/bg-2.jpg);}
+
+.profile-area-table {
+    display: table;
+    width: 100%;
+    height: 519px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-color: #333;
+    position: relative;
+    z-index: 1;
+}
+
+.profile-area-table:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #000;
+    z-index: -1;
+    opacity: .4;
+}
+
+.profile-area-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.profile-area-tablecell h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+}
+
+.profile-area-tablecell h4 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.social-icon ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-icon li {
+    display: inline-block;
+}
+
+.social-icon li a {
+    width: 33px;
+    height: 33px;
+    background: #fff;
+    display: inline-block;
+    line-height: 32px;
+    border-radius: 50px;
+    color: #333;
+    margin-right: 11px;
+    transition: .3s;
+}
+
+.social-icon {
+    margin-bottom: 15px;
+}
+
+.quote-area {
+    background: #14a6b7;
+    display: inline-block;
+    padding: 16px 62px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    position: relative;
+}
+
+.left-quote {
+    position: absolute;
+    left: 32px;
+    top: 6px;
+    color: #08636d;
+    font-size: 25px;
+}
+
+.right-quote {
+    position: absolute;
+    right: 39px;
+    bottom: 17px;
+    color: #08636d;
+    font-size: 25px;
+}
+
+.link-text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.link-text li {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.link-text li a {
+    color: #14a6b7;
+    padding-left: 10px;
+    transition: .3s;
+}
+
+.link-text {
+    margin-top: 50px;
+}
+
+.link-text li a:hover {
+    color: #08636d;
+    padding-left: 15px;
+}
+
+.footer-area {
+    background: #444444;
+    margin-top: 100px;
+}
+
+.footer-area, .footer-area p{
+    color: #b2b2b2;
+}
+
+.footer-text {
+    padding: 20px;
+}
+
+.footer-text p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.footer-text p a:hover {
+    color: #14a6b7;
+}
+
+.footer-area p a {
+    color: #51d4d4a3;
+
+}
+.footer-text a span {
+    transition: .3s;
+}
+
+.footer-text a span:hover {
+    color: #41d8a2;
+}
+
+/* single-page css start */
+.input-area {
+    margin: 50px 0;
+    min-height: 600px;
+}
+
+.title-text {
+    color: #fff;
+}
+
+.row-code-area h2 {
+    margin-bottom: 25px;
+}
+
+.output-area h2 {
+    margin-bottom: 25px;
+}
+
+.social-icon .facebook:hover {
+    color: #fff;
+    background: #4267B2;
+}
+
+.social-icon .twitter:hover {
+    color: #fff;
+    background: #00ACED;
+}
+
+.social-icon .linkedin:hover {
+    color: #fff;
+    background: #0274B3;
+}
+
+.social-icon .google-plus:hover {
+    color: #fff;
+    background: #DD5346;
+}
+
+.row-code {
+    background: #f3f3f3;
+    padding: 5px 15px;
+}
+/* single-page css end */
